@@ -1,0 +1,86 @@
+node-tslib (2.3.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Fri, 01 Oct 2021 18:02:34 +0200
+
+node-tslib (2.3.1-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 2.3.1
+  * Bump standards version to 4.6.0
+
+ -- Vivek K J <vivekkj@protonmail.com>  Tue, 07 Sep 2021 14:47:38 +0530
+
+node-tslib (2.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Apply multi-arch hints (foreign) (Closes: #981315)
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 29 Jan 2021 08:43:17 +0100
+
+node-tslib (2.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * New upstream version 2.1.0
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Jan 2021 12:17:12 +0100
+
+node-tslib (2.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 2.0.3
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 12 Oct 2020 10:27:09 +0200
+
+node-tslib (1.11.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 1.11.2
+  * Update copyright (license changed from Apache-2.0 to ISC)
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 08 May 2020 09:33:54 +0200
+
+node-tslib (1.10.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:15 +0200
+
+node-tslib (1.10.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Move installed files to /usr/share/nodejs
+  * Add upstream/metadata
+  * New upstream version 1.10.0
+  * Move docs/generator.md from install to docs
+  * Switch minimal test to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 24 Jul 2019 20:19:39 +0200
+
+node-tslib (1.9.3-1) unstable; urgency=low
+
+  [ Sweta, Abarna ]
+  * Initial release (Closes: #926087)
+
+ -- Sweta <swetalogu16@gmail.com>  Sun, 31 Mar 2019 12:49:39 +0530
