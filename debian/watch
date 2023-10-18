@@ -1,5 +1,5 @@
 version=4
 opts=\
 dversionmangle=auto,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-tslib-$1.tar.gz/ \
- https://github.com/Microsoft/tslib/releases .*/archive/.*/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-tslib-$1/ \
+ https://github.com/Microsoft/tslib/tags .*/archive/.*/v?([\d\.]+).tar.gz
